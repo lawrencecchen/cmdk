@@ -12,12 +12,12 @@
 	},
 	"devDependencies": {
 		"@supabase/supabase-js": "^1.22.5",
+		"@sveltejs/adapter-vercel": "^1.0.0-next.28",
 		"@sveltejs/kit": "next",
 		"@tailwindcss/aspect-ratio": "^0.2.1",
 		"@tailwindcss/forms": "^0.3.3",
 		"@tailwindcss/line-clamp": "^0.2.1",
 		"@tailwindcss/typography": "^0.4.1",
-		"@types/cookie": "^0.4.0",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
 		"autoprefixer": "^10.3.4",
@@ -36,8 +36,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.2.2",
-		"@lukeed/uuid": "^2.0.0",
-		"cookie": "^0.4.1"
+		"@lukeed/uuid": "^2.0.0"
 	}
 }
