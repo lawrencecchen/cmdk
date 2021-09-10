@@ -1,6 +1,5 @@
 <script lang="ts">
-	//
-
+	import { lastScrollTop } from '$lib/Spotlit/ListBox/store';
 	import Spotlit from '$lib/Spotlit/Spotlit.svelte';
 </script>
 
@@ -22,4 +21,5 @@
 	<span class="text-gray-700">for happiness</span>
 </div>
 
+{$lastScrollTop}
 <Spotlit />
