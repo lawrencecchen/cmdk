@@ -28,7 +28,7 @@
 	<div
 		class="absolute inset-0 bg-white/40"
 		style="z-index: 2147483647"
-		transition:scale={{ duration: 150, start: 0.95 }}
+		transition:scale={{ duration: 75, start: 0.95 }}
 		on:click={() => (isOpen = false)}
 	>
 		<div
